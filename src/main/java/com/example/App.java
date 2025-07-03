@@ -1,7 +1,11 @@
 package com.example;
 
+import com.example.infrastructure.ConsoleMessageProvider;
+import com.example.usecase.GreetUseCase;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, Maven!");
+        GreetUseCase greet = new GreetUseCase(new ConsoleMessageProvider());
+        System.out.println(greet.execute());
     }
 }

@@ -1,6 +1,6 @@
 # Projeto Maven Exemplo
 
-Este projeto demonstra uma configuração básica usando Maven. Para compilar e executar os testes, utilize:
+Estrutura baseada em Clean Architecture.
 
 ```bash
 mvn test
